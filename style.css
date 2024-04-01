@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.topbar a{
+      text-decoration: none;
+    color: aliceblue;
+}
+.free{
+    padding-right: 30px;
+    height: 20px;
+    width: 20px;
+}
+
+.topbar{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(37, 37, 160);
+    display: flex;
+    justify-content: right;
+    padding: 7px 00px 3px 0px;
+    gap: 10px;
+}
+.logo a{
+    position: absolute;
+    left: 50px;
+
+
+}
+.navbar{
+    background-color: rgb(42, 64, 225);
+    height: 60px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* opacity: 0.3; */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position:-webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-family: sans-serif;
+    
+}
+.navbar a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 244, 244);
+    font-size: 15px;
+    padding-right:25px ;
+    text-shadow: 2px 2px black;
+    /* letter-spacing: 0.5px; */
+}
+.bodyx{
+     
+        margin: 0;
+        padding: 0;
+        background-color: #2f3542;
+        color: #fff; 
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Montserrat",sans-serif ;
+        background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url("constructionimage.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+}
+
+.animated-text{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+    }
+    
+    .animated-text span{
+    position: relative;
+    }
+    
+    .animated-text span::before{
+    content: "Buildings";
+    color: #ff7f50;
+    animation: words 7s infinite;   
+    }
+    animated-text span::after{
+
+        content:"";
+        position: absolute;
+        width: calc(100% + 8px);
+        height: 100%;
+        background-color: #2f3542;
+        border-left: 2px solid #ff7f50;
+        right: -8px;
+        animation: cursor .2s infinite;} 
+        /* typing 20s steps (14) infinite;} */
+        
+        @keyframes cursor {
+        to{
+         border-left: 2px solid #ff7f5000;
+        }
+        }
+        
+        @keyframes words {
+        
+        0%, 20% {
+        content: "Buildings";
+        }
+        21%,40%{
+        content: "Homes";
+        }
+        41%, 60%{
+        content: "Schools"; }
+        61%,80%{
+        content: "Hospital";
+        }
+        
+        81%, 100%{
+        content: "Shops";
+        }
+        }
+        @keyframes typing{
+            10%,15%,30%,50%,55%,70%,75%,90%,95%
+            {
+                width:0;
+            }
+            5%,20%,25%,40%,45%,60%,65%,80%,85%{
+                width: calc(100% + 8px);
+            }
+        }
+.aboutustext{
+    margin-top: 30px;
+}
+.aboutheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.aboutcont {
+    padding-bottom: 20px;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+ 
+}
+.freex{
+    width: 100%;
+    height: 30px;
+}
+.textab{
+    padding-right: 50px;
+    padding-left: 10px;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 20px 30px;
+    background-color:  rgb(37, 37, 160);
+    justify-content: center;
+    color: #fff;
+}
+.footer{
+    height: 40px;
+    width: 100%;
+    background-color:rgb(42, 64, 225);
+    justify-content: center;
+    color: #fff;
+    
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 20px 30px;
+    opacity: 0.8;
+
+}
+.footer a{
+    justify-content: space-evenly;
+    gap: 20px;
+    color: white;
+    height: 40px;
+    width: 40px;
+}
